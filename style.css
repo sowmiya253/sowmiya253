@@ -1,0 +1,93 @@
+/* Reset default margins and paddings */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the navigation menu */
+ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+ul li a:hover {
+    background-color: #666;
+}
+
+/* Style the product list */
+ul.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+ul.product-list li {
+    width: 250px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+/* Style the product image */
+ul.product-list li img {
+    width: 150px;
+    height: 150px;
+}
+
+/* Style the product name */
+ul.product-list li h3 {
+    color: #333;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Style the product price */
+ul.product-list li p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Style the product details page */
+.product-details {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the back to home link */
+.back-to-home {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
