@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-commerce Store</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+<body>
+    <h1>Welcome to our E-commerce Store</h1>
+    <ul>
+        {% for product in products %}
+            <li>
+                <a href="{{ url_for('product_details', product_id=product['id']) }}">
+                    <img src="{{ url_for('static', filename='images/' + product['image']) }}" alt="{{ product['name'] }}">
+                    <h3>{{ product['name'] }}</h3>
+                    <p>${{ product['price'] }}</p>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
