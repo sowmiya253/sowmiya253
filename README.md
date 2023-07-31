@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @sowmiya253
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👋 I buil a e commerce store
+- 👀 Use flask API frame work for deployment
+- 🌱 Instead of SQL used SQLALCHEMY 
+  
+- 
 
 <!---
 sowmiya253/sowmiya253 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
